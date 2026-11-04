@@ -1,0 +1,13 @@
+{
+  "md_frames_checked_with_orca": 20,
+  "md_energy_offset_meV": -0.26289346496923827,
+  "md_relative_energy_mae_meV": 0.9531787963169336,
+  "md_force_mae_meV_per_A": 5.763511442273675,
+  "nvt_mean_temperature_K": 501.4874575,
+  "nvt_production_ps": 40.0,
+  "trans_fraction_mace": 0.2715,
+  "trans_fraction_md17": 0.29397,
+  "nve_total_energy_std_meV": 1.2760773820936984,
+  "nve_kinetic_energy_std_meV": 107.8061115162521,
+  "nve_drift_meV_per_ps": 0.039834484020182914
+}

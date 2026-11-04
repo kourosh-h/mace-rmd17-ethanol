@@ -1,0 +1,99 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:     -154.6905684826
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 12.9999997238 
+   Number of Beta  Electrons                 12.9999997238 
+   Total number of  Electrons                25.9999994475 
+   Exchange energy                          -20.6545912608 
+   Correlation energy                        -0.8523587520 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy              -21.5069500128 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)    -154.6905684826 
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 9
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 8
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0     5.8045     6.0000     0.1955     4.0883     4.0883    -0.0000
+  1   0     6.1157     6.0000    -0.1157     3.9952     3.9952    -0.0000
+  2   0     8.2827     8.0000    -0.2827     2.1388     2.1388    -0.0000
+  3   0     0.9855     1.0000     0.0145     0.9726     0.9726     0.0000
+  4   0     1.0262     1.0000    -0.0262     0.9660     0.9660     0.0000
+  5   0     0.9641     1.0000     0.0359     0.9900     0.9900    -0.0000
+  6   0     0.9820     1.0000     0.0180     1.0132     1.0132    -0.0000
+  7   0     0.9768     1.0000     0.0232     0.9806     0.9806     0.0000
+  8   0     0.8625     1.0000     0.1375     1.0383     1.0383     0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0             6               1            6                1.084376
+                0             6               2            8                1.071856
+                0             6               3            1                0.941489
+                0             6               4            1                0.953438
+                1             6               5            1                0.962836
+                1             6               6            1                0.969435
+                1             6               7            1                0.967594
+                2             8               8            1                0.990781
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : example_ethanol_single_point.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        1.3557480828
+        Electronic Contribution:
+                  0    
+      0       2.297735
+      1      -1.450937
+      2      -0.413350
+        Nuclear Contribution:
+                  0    
+      0      -2.555792
+      1       1.789671
+      2       0.092161
+        Total Dipole moment:
+                  0    
+      0      -0.258057
+      1       0.338734
+      2      -0.321189
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    9 
+    Geometry Index:     1 
+    Coordinates:
+               0 C     -0.286408720000   -0.529242650000    0.047611570000
+               1 C     -0.912872870000    0.883691790000    0.210759280000
+               2 O      1.072937820000   -0.386729610000   -0.200347120000
+               3 H     -0.470729760000   -1.155789840000    0.985442710000
+               4 H     -0.773387830000   -1.046952490000   -0.646607590000
+               5 H     -1.633224970000    1.055037040000    0.995876390000
+               6 H     -0.052233650000    1.582009890000    0.371164720000
+               7 H     -1.202840120000    1.252081240000   -0.805957360000
+               8 H      1.391035860000    0.227167910000   -0.798505090000

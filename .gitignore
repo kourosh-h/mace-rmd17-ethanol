@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+
+# downloads, checkpoints, trajectories and other large intermediate files (rebuilt by run_all.sh)
+work/
+
+# ORCA scratch files
+*.gbw
+*.densities
+*.tmp
+
+# publishers' PDFs of the references (read locally, not redistributed)
+references/
+
+# only the final (stage-two) models are kept; the others are rebuilt by step 3
+models/*_compiled.model
+models/ethanol_N*[0-9].model
+
+# validation indices that mace_run_train writes into the folder it is started from
+*_valid_indices_*.txt
